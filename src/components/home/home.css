@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+.video-cover{
+    position: absolute;
+    background-color:rgba(0,0,0,.3);
+    width:100%;
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    height: auto;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 1px aliceblue;
+}
+.video{
+    display: block;
+    width:100%;
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    z-index:-100;
+    height: auto;
+    box-sizing:border-box;
+}
+
+.image-bg{
+    display: none;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    background-image: url('https://static.pexels.com/photos/80378/study-pen-school-notebook-80378.jpeg');
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+
+}
+
+@media (max-width: 480px) {
+    .video{
+        display:none;
+    }
+    .image-bg{
+        display: block;
+    }
+
+}
+/*section 1*/
+.section1{
+    width: 100%;
+    text-align: center;
+    padding: 5% 10%;
+}
+.img-cont-s1{
+    margin: 0 auto;
+    width:200px;
+    height:200px;
+
+    overflow: hidden;
+}
+.img-s1{
+    width: 100%;
+}
+
+.parallax{
+    filter:opacity(50%);
+    background-attachment: fixed;
+    background-image: url('https://static.pexels.com/photos/305565/pexels-photo-305565.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+
+}
+
+/*section2*/
+.section2{
+    width: 100%;
+    height: 100vh;
+    text-shadow: 1px 1px aliceblue;
+    background-image: url('https://static.pexels.com/photos/2166/flight-sky-earth-space.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-cont{
+    background: rgba(255,255,255,.5);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

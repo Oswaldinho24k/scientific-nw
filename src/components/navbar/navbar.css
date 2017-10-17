@@ -1,0 +1,29 @@
+.navbar{
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+/*Links*/
+ .link-nav{
+    text-decoration: none;
+    color: #000;
+}
+.link-nav:hover{
+    text-decoration: none;
+    color: #000;
+}
+.link-nav:focus{
+    text-decoration: none;
+    color: #000;
+}
+.link-nav:visited{
+    text-decoration: none;
+    color: #000;
+}
+/*separador*/
+.separador-nav{
+    padding:3%;
+    margin:0;
+    color:rgba(0,0,0,.5);
+    font-size: 2rem;
+}
