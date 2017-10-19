@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {TextField, RaisedButton} from 'material-ui';
+import { RaisedButton} from 'material-ui';
 import './login.css';
 
 class LoginPage extends Component {
@@ -10,6 +10,7 @@ class LoginPage extends Component {
             <div className="login">
                <div className='login-box'>
                    {this.props.match.path==="/logIn"?<h2>Inicia Sesión</h2>:<h2>Regístrate</h2>}
+                   <br/><br/>
                    <RaisedButton label="Facebook" primary={true} fullWidth={true} />
                    <br/><br/>
                    ó

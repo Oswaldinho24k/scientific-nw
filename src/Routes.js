@@ -3,7 +3,9 @@ import {Switch, Route} from 'react-router-dom';
 import UserProfilePage from "./components/userprofile/UserProfilePage";
 import HomePage from "./components/home/HomePage";
 import LoginPage from "./components/login/LoginPage";
-import Register from "./components/login/Register";
+import NewsfeedPage from "./components/newsfeed/NewsfeedPage";
+import NewPostPage from "./components/newsfeed/NewPostPage";
+//import Register from "./components/login/Register";
 
 
 export const Routes = () => (
@@ -12,6 +14,9 @@ export const Routes = () => (
         <Route path='/userprofile' component={UserProfilePage}/>
         <Route path='/logIn' component={LoginPage}/>
         <Route path='/register' component={LoginPage}/>
+        <Route exact path="/new" component={NewPostPage}/>
+        <Route path='/news' component={NewsfeedPage}/>
+
 
     </Switch>
 );

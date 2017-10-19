@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
-import {Toolbar, ToolbarGroup,  MenuItem, IconMenu, RaisedButton, ToolbarTitle, ToolbarSeparator, IconButton, Avatar} from 'material-ui';
+import {Toolbar, ToolbarGroup,  MenuItem, IconMenu, RaisedButton, ToolbarTitle, IconButton, Avatar} from 'material-ui';
 import NavigationExpandMoreIcon from 'material-ui/svg-icons/navigation/expand-more';
 import './navbar.css';
 import Person from 'material-ui/svg-icons/social/person';
@@ -8,7 +8,7 @@ import Person from 'material-ui/svg-icons/social/person';
 
 class Navbar extends Component {
     render() {
-        let user = true;
+        let user = false;
         return (
             <div className="navbar">
                 <Toolbar>
@@ -30,8 +30,8 @@ class Navbar extends Component {
                         </ToolbarGroup>
                         :
                         <ToolbarGroup>
-                            <Link to="/new" className="link-nav">
-                                <RaisedButton label="New Post" primary={true} />
+                            <Link to="/news" className="link-nav">
+                                <RaisedButton label="Descubre" primary={true} />
                             </Link>
                             <span className="separador-nav">|</span>
                             <Avatar

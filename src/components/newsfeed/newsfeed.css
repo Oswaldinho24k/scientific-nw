@@ -1,0 +1,24 @@
+.newsfeed{
+
+    padding: 64px 10%;
+
+}
+.news-sections{
+    position: relative;
+}
+
+.posts-section{
+    padding: 2%;
+}
+.menu-left-section{
+
+    position: fixed;
+}
+
+.menu-right-section{
+
+    position: fixed;
+}
+.new-post{
+    margin-bottom: 2%;
+}

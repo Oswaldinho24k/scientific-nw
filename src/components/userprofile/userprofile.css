@@ -1,4 +1,29 @@
 .userprofile{
     width:100%;
-    padding: 5% 3%;
+    padding: 64px 5%;
+}
+.left-side{
+    padding: 2%;
+}
+
+.main-profile{
+    position: relative;
+    height:70vh;
+
+}
+.main-avatar{
+    position: absolute;
+    top:35%;
+    left:43%;
+}
+.main-portada{
+    height: 50%;
+    background: #01bcd4;
+}
+.main-texto{
+    padding-top: 7%;
+    text-align: center;
+}
+.right-side{
+    padding: 2%;
 }

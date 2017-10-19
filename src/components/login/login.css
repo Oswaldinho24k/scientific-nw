@@ -4,12 +4,18 @@
     align-items: center;
     width:100%;
     height: 90vh;
+    background-image: url('https://static.pexels.com/photos/205323/pexels-photo-205323.png');
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+
 }
 
 .login-box{
     width: 30%;
     border-radius: 5px;
-    border: solid 1px #e8e8e6;
+   /* border: solid 1px #e8e8e6;*/
+    box-shadow:  0 1px 1px 1px rgba(0,0,0,.3);
     text-align: center;
     padding: 5%;
 }
