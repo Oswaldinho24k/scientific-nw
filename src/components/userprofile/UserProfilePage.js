@@ -33,12 +33,16 @@ class UserProfilePage extends Component {
                             <Subheader>Explora</Subheader>
                             <List>
                                 <ListItem primaryText="Inbox" leftIcon={<ContentInbox />} rightIcon={<ActionInfo />}/>
-                                <ListItem primaryText="Starred" leftIcon={<ActionGrade />} rightIcon={<ActionInfo />}/>
-                                <ListItem primaryText="Sent mail" leftIcon={<ContentSend />} rightIcon={<ActionInfo />}/>
-                                <ListItem primaryText="Drafts" leftIcon={<ContentDrafts />} rightIcon={<ActionInfo />}/>
-                                <ListItem primaryText="Inbox" leftIcon={<ContentInbox />} rightIcon={<ActionInfo />}/>
+                                <ListItem primaryText="Seguidores" leftIcon={<ActionGrade />} rightIcon={<ActionInfo />}/>
+                                <ListItem primaryText="Siguiendo" leftIcon={<ContentSend />} rightIcon={<ActionInfo />}/>
+                                <ListItem primaryText="Posts" leftIcon={<ContentDrafts />} rightIcon={<ActionInfo />}/>
+
                             </List>
                         </Paper>
+                        <Subheader>Último Post</Subheader>
+                        <div className="last-post">
+                            <PostCard image={'https://static.pexels.com/photos/256381/pexels-photo-256381.jpeg'}/>
+                        </div>
 
                     </GridTile>
                 </GridList>

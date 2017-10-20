@@ -1,9 +1,16 @@
+.chat-grid-list{
+
+}
 .chat-page{
 	padding:64px 5%;
 }
 
 .contacts-list{
 	padding: 2%;
+}
+.contacts-list .div-lista{
+	height: 80vh;
+	overflow-y: scroll;
 }
 
 .chat-box{

@@ -8,12 +8,12 @@
 
 .main-profile{
     position: relative;
-    height:70vh;
+    height:80vh;
 
 }
 .main-avatar{
     position: absolute;
-    top:35%;
+    top:40%;
     left:43%;
 }
 .main-portada{
@@ -26,4 +26,9 @@
 }
 .right-side{
     padding: 2%;
+}
+
+.last-post{
+    height: 35vh;
+    overflow-y: scroll;
 }
