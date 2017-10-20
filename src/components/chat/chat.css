@@ -1,0 +1,42 @@
+.chat-page{
+	padding:64px 5%;
+}
+
+.contacts-list{
+	padding: 2%;
+}
+
+.chat-box{
+	padding:2%;
+
+}
+.caja-texto{
+	height: 60vh;
+	width:100%;
+	padding:1%;
+}
+.caja-mensaje{
+	padding: 2%;
+	display:flex;
+
+	justify-content: space-between;
+}
+.el-input{
+	width: 80%
+}
+
+.text{
+
+	padding: 1%;
+	border-radius:5px;
+	border:solid 1px #000;
+	width: 50%;
+}
+.text-left{
+	margin-left: 0;
+
+}
+.text-right{
+	
+	margin-left: 50%;
+}

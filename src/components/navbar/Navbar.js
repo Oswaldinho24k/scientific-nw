@@ -48,6 +48,9 @@ class Navbar extends Component {
                                 <Link to="/userprofile" className="link-nav">
                                     <MenuItem primaryText="Perfil" />
                                 </Link>
+                                <Link to="/chat" className="link-nav">
+                                    <MenuItem primaryText="Chat" />
+                                </Link>
                                 <MenuItem primaryText="Cerrar Sesión" />
                             </IconMenu>
                         </ToolbarGroup>}
